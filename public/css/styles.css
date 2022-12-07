@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+header {
+    background-color: yellow;
+    background-size: cover;
+}
+.top-header{
+    background-color: black;
+    color: white;
+}
+.top-header p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    width: 50%;
+}
+.header-logo img {
+    width: 100%;
+}
+
+
+@media(min-width:576px) {
+
+}
+
+
+
+@media(min-width:768px) {
+
+}
